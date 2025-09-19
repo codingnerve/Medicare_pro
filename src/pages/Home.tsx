@@ -109,7 +109,7 @@ export function Home() {
           style={{ animation: "float 8s 0.8s ease-in-out infinite" }}
         />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
           <div className="text-center">
             <Reveal>
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-100 text-primary-800 text-sm font-medium mb-8 shadow-sm">
@@ -205,8 +205,8 @@ export function Home() {
       </section>
 
       {/* ---------------- FEATURES ---------------- */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className=" bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Reveal>
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
